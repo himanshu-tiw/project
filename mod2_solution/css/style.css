@@ -9,46 +9,47 @@ h1{
     font-weight: bolder;
     font-size: 100%;
 }
+.continer{
+    position: relative;
+}
 
 h2{
     
-    font-size: 10%;
+    font-size: 13%;
     font-weight: bold;
-    padding: 2px;
-    padding-top: 0px;
     margin: 0px;
     text-align: center;
-    
+    width : 80px;
+    height: 25px;
+    position: absolute;
+    top : -1px;
+    right: -1px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px 4px 4px 4px;
 }
-.heading{
-    
-    position:relative;
-    left: 81.5%;
-    width: 20%;
-    padding : 0px;
-    margin: -3px -2px 6px -2px;
-    border: 2px solid black;
-    
-}
+
 
 .box{
     float: left;
     border: 2px solid black;
     position: relative;
-    padding : 3px;
+    padding : 35px 3px 3px 3px;
     margin: 1%;
     background-color: rgb(153, 153, 153);
     width : 31%;
 }
-#chic{
-    background-color: pink;
-}
 #beef{
+    
     background-color: red;
     color:white;
-}
+} 
 #sushi{
     background-color: yellow;
+    
+}
+#chic{
+    background-color: pink;
 }
 @media (max-width : 767px) {
     .box{
